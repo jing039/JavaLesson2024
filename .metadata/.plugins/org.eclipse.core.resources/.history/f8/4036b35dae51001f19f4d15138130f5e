@@ -1,0 +1,19 @@
+package day6;
+
+public class CheckPalindrome {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+	
+	public static boolean isPalindrome(String str) {
+		String reversed = "";
+		for(int i=str.length()-1; i--) {
+			reversed += str.charAt(i);
+		}
+		return str.equals(reversed);
+	}
+
+}

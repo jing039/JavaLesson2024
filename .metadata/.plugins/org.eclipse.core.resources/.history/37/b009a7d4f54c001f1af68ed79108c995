@@ -1,0 +1,19 @@
+package day5;
+
+public class PalindromeOrNot {
+
+	public static void main(String[] args) {
+		int original = 123456, reverse = 0;
+		System.out.println("The orginal number is " + original);
+	
+		while(original !=0) {
+			int remainder = original % 10;
+			reverse = reverse * 10 + remainder;
+			original = original/10;
+		}
+		System.out.println("The reverse number is " + reverse);
+		
+		
+	}
+
+}

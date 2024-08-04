@@ -1,0 +1,66 @@
+package day5;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+		// Strings are immutable - can not be changed
+		
+		String s = "Welcome123"; //String literal
+		String s2 = new String("Welcome"); //through string object
+		
+		//Length() -- count all the characters in a string and returns the number
+		int length = s2.length();
+		System.out.println("The length is " + length); //count length of s2. (7 characters)
+		System.out.println(s.length()); //count length of s. (10 characters)
+		
+		
+		//Concat() -- join multiple strings
+		String s1 = "Welcome";
+		String s3 = " to java";
+		String s4 = " programming";
+		System.out.println((s1+s3));
+		System.out.println(s1.concat(s3).concat(s4));
+		
+		//trim() -- trim any leading trailing spaces from a string
+		s = "		welcome to java		";
+		System.out.println(s.length());
+		s.trim();
+		System.out.println(s.trim().length());
+		
+		//charAt() -- return a single character out of a string from a specific index
+		//index starts from 0
+		s = "Java Selenium";
+		System.out.println(s.charAt(5));
+		System.out.println(s.charAt(5));
+		
+		//contains() -- returns a boolean(true/false)
+		//check if a string is the part of the main string or not
+		System.out.println(s.contains("Jav"));	//T
+		System.out.println(s.contains("Sel"));	//T 
+		System.out.println(s.contains("ium"));	//T
+		System.out.println(s.contains("Sli"));	//F
+		System.out.println(s.contains("a S"));	//T
+		
+		//equals(), equalsIgnoreCase() -- compares 2 strings and returns true/false
+		s1 = "Welcome";		
+		s2 = "Welcome";
+		System.out.println(s1.equals("WELCOME")); //F
+		System.out.println(s1.equals("Welcome")); //T
+		
+		//replace() -- replaces a single character or character sequence of a given string
+		s = "welcome to java selenium automation";
+		System.out.println(s.replace("w", "W"));
+		System.out.println(s.replace("java", "python"));
+		
+		//subString() -- extracts substring from the main string
+		System.err.println(s.substring(11)); //java selenium automation
+		
+		
+		
+		
+		
+		
+	}
+	
+
+}

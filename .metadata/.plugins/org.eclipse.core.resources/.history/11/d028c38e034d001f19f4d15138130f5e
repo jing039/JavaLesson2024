@@ -1,0 +1,42 @@
+package day5;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+		// Strings are immutable - can not be changed
+		
+		String s = "Welcome123"; //String literal
+		String s2 = new String("Welcome"); //through string object
+		
+		//Length() -- count all the characters in a string and returns the number
+		int length = s2.length();
+		System.out.println("The length is " + length); //count length of s2. (7 characters)
+		System.out.println(s.length()); //count length of s. (10 characters)
+		
+		
+		//Concat() -- join multiple strings
+		String s1 = "Welcome";
+		String s3 = " to java";
+		String s4 = " programming";
+		System.out.println((s1+s3));
+		System.out.println(s1.concat(s3).concat(s4));
+		
+		//trim() -- trim any leading trailing spaces from a string
+		s = "		welcome to java		";
+		System.out.println(s.length());
+		s.trim();
+		System.out.println(s.trim().length());
+		
+		//charAt() -- return a single character out of a string from a specific index
+		//index starts from 0
+		s = "Selenium java";
+		System.out.println(s.charAt(5));
+		System.out.println(s.charAt(5));
+		
+		
+		
+		
+	}
+	
+
+}

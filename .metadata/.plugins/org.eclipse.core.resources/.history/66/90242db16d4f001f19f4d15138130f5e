@@ -1,0 +1,30 @@
+package ai4;
+
+public class FindLargestAndBiggest {
+
+	public static void main(String[] args) {
+		//
+		// Define the array
+		int[] a = { 101, 22, 345, 41, 554, 67, 79, 8, 90, 10 };
+
+		// Initialize the largest and smallest variables
+		int largest = a[0];
+		int smallest = a[0];
+
+		// Loop through the array
+		for (int i = 1; i < a.length; i++) {
+			if (a[i] > largest) {
+				largest = a[i];
+			}
+			else (a[i] < smallest) {
+				smallest = a[i];
+			}
+		}
+
+		// Print the largest and smallest values
+		System.out.println("Largest number in the array is: " + largest);
+		System.out.println("Smallest number in the array is: " + smallest);
+
+	}
+
+}

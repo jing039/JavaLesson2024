@@ -1,0 +1,13 @@
+package day6;
+
+public class Constructor {
+	String name;
+	String streetName;
+	int houseNumber;
+	int zipCode;
+	
+	public String declareAddress() {
+		return(name + "\n" + houseNumber + ", " + streetName + "\n" + zipCode);
+	}
+
+}

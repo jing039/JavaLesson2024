@@ -1,0 +1,50 @@
+package day5;
+
+public class FindDayNum {
+
+	public static void Main(String[] args) {
+		
+		String dayName = "Monday".toLowerCase();
+		
+		switch(dayName) {
+		case "Monday":{
+			System.out.println("Day 1");
+			break;
+		}
+		switch(dayName) {
+		case "Tuesday":{
+			System.out.println("Day 2");
+			break;
+		}
+		switch(dayName) {
+		case "Wednesday":{
+			System.out.println("Day 3");
+			break;
+		}
+		switch(dayName) {
+		case "Thursday":{
+			System.out.println("Day 4");
+			break;
+		}
+		switch(dayName) {
+		case "Friday":{
+			System.out.println("Day 5");
+			break;
+		}
+		switch(dayName) {
+		case "Saturday":{
+			System.out.println("Day 6");
+			break;
+		}
+		switch(dayName) {
+		case "Sunday":{
+			System.out.println("Day 7");
+			break;
+		}
+		
+		
+		
+		
+		
+	}
+}

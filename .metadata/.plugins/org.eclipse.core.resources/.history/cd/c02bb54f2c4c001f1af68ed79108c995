@@ -1,0 +1,30 @@
+package day4;
+
+public class While {
+	
+	public static void main(String[] args) {
+		//initialization; condition/logic; increment/decrement
+		System.out.println("***********Using for loop***********".repeat(2));
+		
+		for(int n=1; n<=5; n++) {
+			System.out.println(n);
+		}
+		
+		System.out.println("***********Using while loop***********".repeat(2));
+		//Print 1-5 using while loop
+		int n=1; 
+		while(n<=5) {
+			System.out.println(n);
+			n++;
+		}
+		
+		//Print 1-5 using do while loop
+		int nbr=1;
+		do {
+			System.out.println(nbr);
+			n++;
+		}while(n<=5);
+		
+	}
+
+}

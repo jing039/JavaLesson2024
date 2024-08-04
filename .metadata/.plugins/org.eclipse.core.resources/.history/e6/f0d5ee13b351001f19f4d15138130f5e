@@ -1,0 +1,27 @@
+package day6;
+
+public class CheckPalindrome {
+
+	public static void main(String[] args) {
+		
+		String input = "agus";
+		System.out.println("Given string is a palindrome = " + isPalindrome(input));
+
+	}
+	
+	public static boolean isPalindrome(String str) {
+		String reversed = "";
+		for(int i=str.length()-1; i>=0; i--) {
+			reversed += str.charAt(i);
+		}
+		return str.equals(reversed);
+	}
+	
+	public class RemoveJunkCharacter{
+	
+		String doublefulInput = "This is my string with special characters: _&*(%%^&"; 
+		String result = doublefulInput.replaceAll("[6-13-2013]", "");
+		System.out.println(result);
+	}
+
+}

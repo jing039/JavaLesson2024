@@ -1,0 +1,10 @@
+package ai4;
+
+public class RemoveCharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

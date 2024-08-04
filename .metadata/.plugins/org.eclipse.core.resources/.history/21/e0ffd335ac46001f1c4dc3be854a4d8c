@@ -1,0 +1,46 @@
+package day3;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		/* conditional statements
+		 * if
+		 * if else
+		 * switch
+		 * 		
+		 */
+		
+		
+		/** switch(variable) {
+		case 1:{
+			// code
+			break;
+		}
+		switch(variable) {
+		case 1:{
+			// code
+			break;
+		}
+		default:
+		{
+			
+		}
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+		
+			
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package day5;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+		// Strings are immutable - can not be changed
+		
+		String s = "Welcome";
+		s = "Welcom to Java Selenium";
+		
+		int n = 1000;
+		n = 2000;
+		
+		
+		
+	}
+	
+
+}

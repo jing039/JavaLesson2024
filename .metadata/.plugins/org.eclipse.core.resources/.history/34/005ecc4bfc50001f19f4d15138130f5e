@@ -1,0 +1,14 @@
+package ai4;
+
+public class RemoveCharacter {
+
+	public static void main(String[] args) {
+		// 
+
+		String string = "Today is su@per hot";
+		System.out.println(string.replace("@", ""));
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package ai4;
+
+public class SumOfElementInArray {
+
+	public static void main(String[] args) {
+		// Q1. Find sum of elements in an int Array.
+
+		int n[] = {10, 20, 30, 40, 50};
+		int sum = 0;
+		
+		for (int s=0; s<n.length; s++ ) {
+			sum += n[s];		
+		}System.out.println("The sum of the array is " + sum);
+
+	}
+
+}

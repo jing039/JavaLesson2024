@@ -1,0 +1,23 @@
+package day5;
+
+public class CountEvenNOddDigits {
+
+	public static void Mian(String[] args) {
+		
+		int n = 251, oddCnt = 0; evenCnt = 0;
+		while(n > 0) {
+			int digit = n % 10;
+			if(digit % 2 == 0) {
+				evenCnt ++; 
+			}else {
+				oddCnt ++; 
+			}
+			n /= 10;
+		}
+		
+		
+		
+		
+		
+	}
+}

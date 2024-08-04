@@ -1,0 +1,28 @@
+package ai4;
+
+public class ReverseString {
+	
+	public static void main(String[] args) {
+		
+		// Reverse a string
+		String orginal = "Apple";
+		// Initialize an empty string to hold the reversed string
+		String reversed = "";
+		
+		/* original.length() returns the length of the string "AirConditioner", which is 14.
+		 * original.length() - 1 calculates the index of the last character of the string. 
+		 * For a string of length 14, the last character is at index 13, so i is initialized to 13.
+		 * i >= 0 (loop continues as long as i is greater than or equal to 0)
+		 * i-- (moves the loop to the previous character in the string.)
+		 */
+		for(int i = orginal.length() - 1; i >= 0; i-- ) {
+		/* orginal.charAt(i):Retrieves the character at index i from the original string
+		 * reversed += original.charAt(i): Appends this character to the reversed string
+		 */
+			reversed += orginal.charAt(i);
+		}
+		System.out.println("The reversed string is " + reversed);
+		
+	}
+
+}

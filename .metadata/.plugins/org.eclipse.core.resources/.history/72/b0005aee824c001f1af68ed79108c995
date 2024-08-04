@@ -1,0 +1,24 @@
+package day4;
+
+public class LargestNum {
+
+	public static void main(String[] args) {
+
+		int num1 = 309;
+		int num2 = 901;
+		int largest;
+
+		// Using if..else statement to determine the largest number
+		if (num1 > num2) {
+			largest = num1;
+		} else {
+			largest = num2;
+		}
+
+		// Using ternary operator to find the largest number
+        largest = (num1 > num2) ? num1 : num2;
+        System.out.println("The largest number is: " + largest);
+
+	}
+
+}

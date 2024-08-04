@@ -1,0 +1,26 @@
+package day6;
+
+public class CheckPalindrome {
+
+	public static void main(String[] args) {
+		//Check palindrome or not
+		String input = "agus";
+		System.out.println("Given string is a palindrome = " + isPalindrome(input));
+		
+		//Remove junk characters
+		String doublefulInput = "This is my string with special characters:_&*(%%^&"; 
+		//Use replaceAll([^a-zA-Z0-9 ],"")to replace special characters with empty string
+		String result = doublefulInput.replaceAll("[^a-zA-Z0-9 ]", ""); 
+		System.out.println(result);
+	}
+	
+	
+	public static boolean isPalindrome(String str) {
+		String reversed = "";
+		for(int i=str.length()-1; i>=0; i--) {
+			reversed += str.charAt(i);
+		}
+		return str.equals(reversed);
+	}	
+
+}

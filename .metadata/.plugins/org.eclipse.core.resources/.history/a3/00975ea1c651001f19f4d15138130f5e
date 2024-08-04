@@ -1,0 +1,18 @@
+package day6;
+
+public class MethodDemo {
+
+	//No params and no return
+	
+	public void methodOne() {
+		System.out.println("Hey, we are learning method!");
+	}
+	
+	//No params and returns values
+	public String methodTwo() {
+		String a = "Hello";
+		String b = "Wasup";
+		return a+ b;
+	}
+	
+}

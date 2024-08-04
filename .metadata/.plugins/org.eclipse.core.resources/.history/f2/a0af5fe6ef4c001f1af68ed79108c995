@@ -1,0 +1,12 @@
+package day5;
+
+public class SmallestOfTwo {
+	
+	public static void Main(String[] agrs) {
+		
+		//Assign values to 3 numbers, and find out the smallest
+		
+		
+	}
+
+}

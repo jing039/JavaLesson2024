@@ -1,0 +1,20 @@
+package day5;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+		// Strings are immutable - can not be changed
+		
+		String s = "Welcome123"; //String literal
+		String s2 = new String("Welcome"); //through string object
+		
+		//Length() -- count all the characters in a string and returns the number
+		int length = s2.length();
+		System.out.println("The length is " + length);
+		System.out.println(s.length());
+		
+		
+	}
+	
+
+}

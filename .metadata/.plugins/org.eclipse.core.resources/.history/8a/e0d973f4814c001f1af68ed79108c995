@@ -1,0 +1,25 @@
+package day4;
+
+public class LargestNum {
+
+	public static void main(String[] args) {
+
+		int num1 = 309;
+		int num2 = 901;
+		int largest;
+
+		// Using if..else statement to determine the largest number
+		if (num1 > num2) {
+			largest = num1;
+		} else {
+			largest = num2;
+		}
+
+		// Printing the result using ternary operator
+		String result = (num1 > num2) ? "Num1 is larger" : "Num2 is larger or equal";
+		System.out.println("Using if...else: The largest number is " + largest);
+		System.out.println("Using ternary operator: " + result);
+
+	}
+
+}
